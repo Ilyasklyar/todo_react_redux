@@ -1,0 +1,23 @@
+ul {
+    width: 80%;
+    margin: 15px auto;
+}
+li {
+    list-style-type: none;
+    background-color: #b0dff1;
+    margin-top: 15px;
+    font-size: 18px;
+    padding: 10px;
+    color:#777;
+    text-align: left;
+    display: flex;
+}
+li:first-child {
+    display: none;
+  }
+.del {
+    margin-left: auto;
+    font-size: 18px;
+    color: red;
+    cursor: pointer;
+}
